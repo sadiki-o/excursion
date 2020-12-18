@@ -1,5 +1,43 @@
 * {
+  font-family: "Courier New", Courier, monospace;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+body .container {
+  width: 90vw;
+  margin: 20px auto;
+}
+body .container h1 {
+  margin: 20px auto;
+  width: 70vw;
+  font-size: 3em;
+  color: white;
+}
+body .container a {
+  margin: 20px 0;
+  color: #bcd499;
+  display: block;
+}
+body .container h2 {
+  color: white;
+  font-size: 2em;
+  margin: 40px;
+}
+body .container img {
+  display: block;
+  margin: 40px auto;
+}
+body .container p {
+  color: gray;
+}
+body .container h4 {
+  margin: 40px 0;
+  color: white;
+  text-align: end;
 }
